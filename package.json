@@ -1,0 +1,32 @@
+{
+  "name": "js-inline-html-loader",
+  "version": "1.0.0",
+  "description": "Loads HTML inline in Javascript using html-loader",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "node_modules/.bin/webpack --config example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skarbo/js-inline-html-loader.git"
+  },
+  "keywords": [
+    "html-inline-loader",
+    "html-loader"
+  ],
+  "author": "Kris Skarbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skarbo/js-inline-html-loader/issues"
+  },
+  "homepage": "https://github.com/Skarbo/js-inline-html-loader#readme",
+  "dependencies": {
+    "html-loader": "^0.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
